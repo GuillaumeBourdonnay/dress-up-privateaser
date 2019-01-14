@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
     <title>CSS/HTML Workshop with Privateaser</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+    <div class="container-fluid red">
+      
+    
     <div id="bar">
       <input class="js-name" type="text" placeholder="Bar name"/>
       <input class="js-price-by-hour" type="number" placeholder="Price by hour"/>
@@ -15,9 +21,10 @@
       <input class="js-persons" type="number" placeholder="Persons"/>
       <input class="js-option" type="checkbox" placeholder="Deductible option"/>
     </div>
-    <button id="compute">Compute</button>
+    <button class="btn btn-success" id="compute">Compute</button>
     <div id="actors"></div>
     <script src="privateaser.js"></script>
     <script src="index.js"></script>
+    </div>
   </body>
 </html>
