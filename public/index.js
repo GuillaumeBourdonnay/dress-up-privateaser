@@ -17,8 +17,8 @@
 
     div.innerHTML = template;
     fragment.appendChild(div);
-    document.querySelector('#actors').innerHTML = '';
-    document.querySelector('#actors').appendChild(fragment);
+    document.querySelector('.modal-body').innerHTML = '';
+    document.querySelector('.modal-body').appendChild(fragment);
   };
 
   const button = document.querySelector('#compute');
